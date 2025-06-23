@@ -12,7 +12,8 @@ from core.views import AnimalViewSet, UserViewSet
 router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
-router.register(r"animal", AnimalViewSet)
+router.register(r'animal', AnimalViewSet)
+router.register(r'clinica', ClinicaViewset)
 urlpatterns = [
     path('admin/', admin.site.urls),
     # OpenAPI 3

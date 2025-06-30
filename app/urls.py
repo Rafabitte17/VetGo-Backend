@@ -7,7 +7,7 @@ from drf_spectacular.views import (
 )
 from rest_framework.routers import DefaultRouter
 
-from core.views import AnimalViewSet, UserViewSet
+from core.views import AnimalViewSet, ClinicaViewset, UserViewSet
 
 router = DefaultRouter()
 
